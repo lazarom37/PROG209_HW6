@@ -55,7 +55,7 @@ app.get('/articles', (req, res) => {
 
 app.get('/movies', (req, res) => {
   res.render('pages/movies', {
-      articles: posts
+      movies: movies
   })
 })
 
